@@ -5,6 +5,6 @@
 terraform {
   backend "gcs" {
     bucket  = "iq9-terraform-shared-state-bucket"
-    prefix  = "terraform/state/foundation/gcp_folders"
+    prefix  = "/gcp_cft/terraform/state/foundation/gcp_folders"
   }
 }
