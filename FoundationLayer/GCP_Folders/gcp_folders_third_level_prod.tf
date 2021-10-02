@@ -11,8 +11,8 @@ module "third_level_folders_prod" {
   parent  = "folders/36984627163"
 
   names = [
-    "iq9_ari_prod_cft",
-    "iq9_colin_prod_cft",
+    "iq9_ari_vatanen_prod_cft",
+    "iq9_colin_mcrae_prod_cft",
   ]
 
   set_roles = true

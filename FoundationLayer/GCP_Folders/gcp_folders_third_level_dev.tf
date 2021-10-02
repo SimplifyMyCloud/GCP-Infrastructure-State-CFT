@@ -11,8 +11,8 @@ module "third_level_folders_dev" {
   parent  = "folders/20259814746"
 
   names = [
-    "iq9_ari_dev_cft",
-    "iq9_colin_dev_cft",
+    "iq9_ari_vatanen_dev_cft",
+    "iq9_colin_mcrae_dev_cft",
   ]
 
   set_roles = true
