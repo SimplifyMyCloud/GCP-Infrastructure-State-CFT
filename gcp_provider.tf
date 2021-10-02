@@ -3,11 +3,9 @@
 # GCP Provider
 # ---------------------------------------------------------------------------------------------------------------------
 provider "google" {
-  version = "~> 3.76.0"
   region = "us-west1"
 }
 
 provider "google-beta" {
-  version = "~> 3.76.0"
   region = "us-west1"
 }

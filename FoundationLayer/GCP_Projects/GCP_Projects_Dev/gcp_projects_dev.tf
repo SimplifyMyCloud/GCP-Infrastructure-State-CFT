@@ -9,7 +9,7 @@
 # development environment
 module "project-factory" {
   source  = "terraform-google-modules/project-factory/google"
-  version = "~> 6.0"
+  version = "~> 11.1.1"
 
   name                = "iq9-dev"
   random_project_id   = true
