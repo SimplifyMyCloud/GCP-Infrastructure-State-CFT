@@ -1,10 +1,10 @@
 # ---------------------------------------------------------------------------------------------------------------------
 # Foundation Layer
-# GCS Backend for Terraform State
+# GCS Backend for CFT Terraform State
 # ---------------------------------------------------------------------------------------------------------------------
 terraform {
   backend "gcs" {
-    bucket  = "iq9-terraform-shared-state-bucket"
-    prefix  = "/gcp_cft/terraform/state/foundation/gcp_folders"
+    bucket  = "iq9-cft-state"
+    prefix  = "terraform/state/foundation/gcp_folders"
   }
 }
