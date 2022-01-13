@@ -98,17 +98,17 @@ Standard:
  * Environment codes: sndbx, dev, stage, prod
 
 VPC network
- * syntax: {company name}-{description-label}-{environment-label}-{seq#}
+ * syntax: `{company name}-{description-label}-{environment-label}-{seq#}`
  * example: `iq9-hr-dev-vpc-1`
 
 Subnet
- * syntax: {company-name}-{environment}-{description-label}-{region/zone-label}
+ * syntax: `{company-name}-{environment}-{description-label}-{region/zone-label}`
  * example: `iq9-dev-bmw-app-na-ne1-dev-subnet`
 
  Firewall rule
- * syntax: {company-name}-{environment}-{description-label}{source-label}-{dest-label}-{protocol}-{port}-{action}
+ * syntax: `{company-name}-{environment}-{description-label}{source-label}-{dest-label}-{protocol}-{port}-{action}`
  * example: `iq9-dev-bmw-app-internet-internal-tcp-80-allow-rule`
 
  IP route
- * syntax: {priority}-{VPC-label}-{tag}-{next hop}
+ * syntax: `{priority}-{VPC-label}-{tag}-{next hop}`
  * example: `1000-iq9-dev-vpc-1-int-gw`
