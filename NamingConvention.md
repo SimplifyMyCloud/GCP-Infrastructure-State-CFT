@@ -99,7 +99,7 @@ Standard:
 
 VPC network
  * syntax: `{company name}-{description-label}-{environment-label}-{seq#}`
- * example: `iq9-hr-dev-vpc-1`
+ * example: `iq9-hostnet-dev-vpc-1`
 
 Subnet
  * syntax: `{company-name}-{environment}-{description-label}-{region/zone-label}`
