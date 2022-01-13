@@ -14,7 +14,7 @@ _iq9_
 
 Optional:
 
-3 letters representing the business unit
+3 letters representing the business unit 
 
 ## Top Level Folder
 
