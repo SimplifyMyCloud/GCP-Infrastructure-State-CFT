@@ -4,48 +4,11 @@
 
 _iq9.io_
 
-## Top Level Folder
-
-Standard:
-
-`environments`
-
-Example:
-
-`sandbox` - `dev` - `stage` - `production` - `logging` - `shared` - `ops`
-
-Optional:
-
-`business unit`
-
-&darr;
-
-`environments`
-
-Example:
-
-`unitA`
-
-&darr;
-
-`sandbox` - `dev` - `stage` - `production` - `logging` - `shared` - `ops`
-
----
-
-`unitB`
-
-&darr;
-
-`sandbox` - `dev` - `stage` - `production` - `logging` - `shared` - `ops`
-
-
 ## Base
 
 Standard:
 
 3 Letters representing the company name
-
-Example:
 
 _iq9_
 
@@ -53,15 +16,37 @@ Optional:
 
 3 letters representing the business unit
 
-## GCP Folders
+## Top Level Folder
 
 Standard:
 
-`base-environment`
+`{base}-{environments}`
+
+`iq9-sandbox` - `iq9-dev` - `iq9-stage` - `iq9-production` - `iq9-logging` - `iq9-shared` - `iq9-ops`
+
+Optional:
+
+`{business unit}`
+
+&darr;
+
+`{business unit}-{environments}`
 
 Example:
 
-`iq9-sandbox` - `iq9-dev` - `iq9-stage` - `iq9-production` - `iq9-logging` - `iq9-shared` - `iq9-ops`
+`fintech`
+
+&darr;
+
+`fintech-sandbox` - `fintech-dev` - `fintech-stage` - `fintech-production` - `fintech-logging` - `fintech-shared` - `fintech-ops`
+
+---
+
+`customer service`
+
+&darr;
+
+`cusrv-sandbox` - `cusrv-dev` - `cusrv-stage` - `cusrv-production` - `cusrv-logging` - `cusrv-shared` - `cusrv-ops`
 
 ## GCP Projects
 
