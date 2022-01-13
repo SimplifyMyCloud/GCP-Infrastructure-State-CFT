@@ -1,20 +1,19 @@
 # GCP Project - Dev Environment IaC
 
-GCP Project named `iq9-dev` hosted in the GCP Folder named `dev`.
+GCP Project named `iq9-dev` hosted in the GCP Folder named `iq9-dev`.
 
-This is the development environment for iq9.
+This is the test development environment for iq9.
 
 Terraform will be run in this directory, creating a Terraform state containing:
 
 * GCP Project `iq9-dev`
-* GCP network `iq9-dev-network`
-* GCP subnetworks `iq9-dev-network-subnet-01`, `iq9-dev-network-subnet-02`, `iq9-dev-network-subnet-03`
+
 
 Directory contents:
 
-* `gcp_folders.tf` - contains all GCP Folders desired state
+* `gcp_projects_iq9_dev_env.tf` - contains the desired state for the iq9 dev environment
 * `gcp_providers.tf` - soft Linux link back to the root Terraform providers file
-* `gcs_backend.tf` - Terraform state file located in `terraform/state/foundation/gcp_folders`
+* `gcp_projects_iq9_dev_env_gcs_backend.tf` - Terraform state file located in `terraform/state/foundation/dev_env`
 
 Terraform State File stored in a GCS Bucket:
 

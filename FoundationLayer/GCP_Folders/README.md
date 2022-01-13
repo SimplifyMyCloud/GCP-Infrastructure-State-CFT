@@ -6,9 +6,12 @@ Terraform will be run in this directory, creating a Terraform state containing j
 
 Directory contents:
 
-* `gcp_folders.tf` - contains all GCP Folders desired state
+* `gcp_folders_top_level.tf` - contains all top level GCP Folders desired state
+* `gcp_folders_second_level.tf` - contains all second level GCP Folders desired state
+* `gcp_folders_third_level_dev.tf` - contains all third level dev GCP Folders desired state
+* `gcp_folders_third_level_prod.tf` - contains all third level production GCP Folders desired state
 * `gcp_providers.tf` - soft Linux link back to the root Terraform providers file
-* `gcs_backend.tf` - Terraform state file located in `terraform/state/foundation/gcp_folders`
+* `gcp_folders_gcs_backend.tf` - Terraform state file located in `terraform/state/foundation/gcp_folders`
 
 Terraform State File stored in a GCS Bucket:
 
