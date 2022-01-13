@@ -17,17 +17,23 @@ Example:
 Optional:
 
 `business unit`
+
 &darr;
+
 `environments`
 
 Example:
 
 `unitA`
+
 &darr;
+
 `sandbox` - `dev` - `stage` - `production` - `logging` - `shared` - `ops`
 
 `unitB`
+
 &darr;
+
 `sandbox` - `dev` - `stage` - `production` - `logging` - `shared` - `ops`
 
 
