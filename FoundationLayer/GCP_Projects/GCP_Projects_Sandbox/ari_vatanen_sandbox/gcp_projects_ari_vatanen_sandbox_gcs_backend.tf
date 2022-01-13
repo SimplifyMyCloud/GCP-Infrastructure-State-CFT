@@ -5,6 +5,6 @@
 terraform {
   backend "gcs" {
     bucket  = "iq9-cft-state"
-    prefix  = "terraform/state/foundation/gcp_projects/dev_env/ari_vatanen_sandbox"
+    prefix  = "terraform/state/foundation/gcp_projects/sandbox_env/ari_vatanen"
   }
 }
