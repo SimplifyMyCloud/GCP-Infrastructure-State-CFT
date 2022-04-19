@@ -14,6 +14,7 @@ module "second_level_folders_environments" {
     "iq9_sandbox_cft",
     "iq9_dev_cft",
     "iq9_prod_cft",
+    "iq9_logging_cft",
   ]
 
   set_roles = true
@@ -22,6 +23,7 @@ module "second_level_folders_environments" {
     sandbox = "group:gcp-developers@iq9.io",
     dev = "group:gcp-developers@iq9.io",
     prod = "group:gcp-ops@iq9.io",
+    logging = "group:gcp-ops@iq9.io",
   }
 
   all_folder_admins = [

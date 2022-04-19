@@ -6,12 +6,13 @@
 # log warehouse environment
 module "project-factory" {
   source  = "terraform-google-modules/project-factory/google"
-  version = "~> 6.0"
+  version = "~> 13.0"
 
-  name                = "iq9-log-warehouse-00"
+  name                = "iq9-log-warehouse-cft-00"
   random_project_id   = false
   org_id              = "447686549950"
-  billing_account     = "01AE65-A7583F-D9EB1A"
+  folder_id           = "{NEEDS_VALUE}"
+  billing_account     = "018B8F-68E09C-7618B0"
   lien                = true
   activate_apis = [
     "cloudbilling.googleapis.com",
