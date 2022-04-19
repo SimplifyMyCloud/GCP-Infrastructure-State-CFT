@@ -11,7 +11,7 @@ module "project-factory" {
   name                = "iq9-log-warehouse-cft-00"
   random_project_id   = false
   org_id              = "447686549950"
-  folder_id           = "{NEEDS_VALUE}"
+  folder_id           = "436311238415"
   billing_account     = "018B8F-68E09C-7618B0"
   lien                = true
   activate_apis = [
