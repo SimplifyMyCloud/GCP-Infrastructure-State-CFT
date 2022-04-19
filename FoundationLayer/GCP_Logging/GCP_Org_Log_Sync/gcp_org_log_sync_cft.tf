@@ -12,4 +12,5 @@ module "destination" {
   source                   = "terraform-google-modules/log-export/google//modules/storage"
   project_id               = "iq9-log-warehouse-cft-00"
   storage_bucket_name      = "iq9-log-warehouse-cft"
+  log_sink_writer_identity = "cloud-logs@system.gserviceaccount.com"
 }
