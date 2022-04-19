@@ -1,10 +1,10 @@
 # ---------------------------------------------------------------------------------------------------------------------
-# Foundation Layer - GCP Production Project
-# GCS Backend for Terraform State
+# Foundation Layer
+# GCS Backend for CFT Terraform State
 # ---------------------------------------------------------------------------------------------------------------------
 terraform {
   backend "gcs" {
-    bucket  = "iq9-terraform-shared-state-bucket"
-    prefix  = "terraform/state/foundation/gcp_projects/log_warehouse_env"
+    bucket  = "iq9-cft-state"
+    prefix  = "terraform/state/foundation/gcp-projects/gcp-log-warehouse"
   }
 }
